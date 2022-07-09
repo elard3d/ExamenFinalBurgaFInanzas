@@ -1,0 +1,35 @@
+﻿<a href="/Finanzas/IngresoDineroI?IdCuenta=@ViewBag.cuenta.Id">Crear ingreso</a>
+<a href="/Finanzas/IngresarGastoI?IdCuenta=@ViewBag.cuenta.Id">Crear gasto</a>
+<table class="table table-dark">
+    <tr>
+        <th>Nombre</th>
+        <th>Categoria</th>
+        <th>SaldoTotal</th>
+        <th>SaldoInicial</th>
+
+        <th>Moneda</th>
+        <th>Saldo en soles</th>
+        <th>Lista de ingresos</th>
+        <th>Lista de Gastos</th>
+
+    </tr>
+    <tr>
+        <td>@ViewBag.cuenta.Nombre</td>
+        <td>@ViewBag.cuenta.Categoria</td>
+        <td>@ViewBag.cuenta.SaldoTotal</td>
+
+        @if (ViewBag.cuenta.Categoria == "Propia")
+        {
+            <td>Debito</td>
+        }
+        else
+        {
+            <td>@ViewBag.cuenta.SaldoInicial</td>
+        }
+        <td>@ViewBag.cuenta.Moneda</td>
+        <td>@ViewBag.cuentaEnSoles</td>
+        <td><a href="/Finanzas/MostrarIngresos?IdCuenta=@ViewBag.cuenta.Id">ingresos</a></td>
+        <td><a href="/Finanzas/MostrarGastos?IdCuenta=@ViewBag.cuenta.Id">Gastos</a></td>
+    </tr>
+
+</table>

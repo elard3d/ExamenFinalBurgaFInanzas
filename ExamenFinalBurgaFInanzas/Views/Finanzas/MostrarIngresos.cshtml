@@ -1,0 +1,25 @@
+﻿
+
+<table class="table table-dark">
+
+    <tr>
+
+
+        <th>Fecha y hora</th>
+
+        <th>monto</th>
+
+        <th>Descripcion</th>
+
+
+    </tr>
+    @foreach (var item1 in ViewBag.listaDeIngresos)
+    {
+        <tr>
+
+            <td>@item1.FechaYHora</td>
+            <td>@item1.monto</td>
+            <td>@item1.Descripcion</td>
+        </tr>
+    }
+</table>

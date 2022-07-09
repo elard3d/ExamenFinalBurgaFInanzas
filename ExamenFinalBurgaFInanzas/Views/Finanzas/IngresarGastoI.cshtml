@@ -1,0 +1,20 @@
+﻿<div class="row">
+    <div class="col-8" style="background-color: #fff">
+        <form action="/Finanzas/IngresarGasto" method="post">
+
+            <h2>Crear ingreso</h2>
+      
+            <input type="hidden" placeholder="IdCuenta" name="IdCuenta" value="@ViewBag.IdCuenta">
+            <input type="number" placeholder="monto" name="monto" required value="">
+
+            <input type="tect" placeholder="Descripcion" name="Descripcion" required value="">
+
+
+            <br>
+            
+            <button class="btn">Guardar</button>
+
+        </form>
+
+    </div>
+</div>

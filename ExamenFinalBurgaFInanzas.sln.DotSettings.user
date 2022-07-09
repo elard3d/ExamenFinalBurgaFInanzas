@@ -1,0 +1,13 @@
+﻿<wpf:ResourceDictionary xml:space="preserve" xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml" xmlns:s="clr-namespace:System;assembly=mscorlib" xmlns:ss="urn:shemas-jetbrains-com:settings-storage-xaml" xmlns:wpf="http://schemas.microsoft.com/winfx/2006/xaml/presentation">
+	<s:String x:Key="/Default/Environment/UnitTesting/UnitTestSessionStore/Sessions/=20451ede_002D372a_002D4634_002D93ac_002Dbd2bfb397c82/@EntryIndexedValue">&lt;SessionState ContinuousTestingMode="0" IsActive="True" Name="BuscarEfectivoRetornaUnElemento" xmlns="urn:schemas-jetbrains-com:jetbrains-ut-session"&gt;&#xD;
+  &lt;TestAncestor&gt;&#xD;
+    &lt;TestId&gt;NUnit3x::1CCBB824-F9B0-435A-90C5-0BF37A15E2EF::net5.0::ExamenFinalBurgaFInanzasTEst.Pruebas.pruebasCrearCuenta.RegistroCuenta&lt;/TestId&gt;&#xD;
+    &lt;TestId&gt;NUnit3x::1CCBB824-F9B0-435A-90C5-0BF37A15E2EF::net5.0::ExamenFinalBurgaFInanzasTEst.Pruebas.pruebasCrearCuenta.ListarCuenta&lt;/TestId&gt;&#xD;
+    &lt;TestId&gt;NUnit3x::1CCBB824-F9B0-435A-90C5-0BF37A15E2EF::net5.0::ExamenFinalBurgaFInanzasTEst.Pruebas.pruebasCrearCuenta.UsuarioSeLoguea&lt;/TestId&gt;&#xD;
+    &lt;TestId&gt;NUnit3x::1CCBB824-F9B0-435A-90C5-0BF37A15E2EF::net5.0::ExamenFinalBurgaFInanzasTEst.Pruebas.pruebasCrearCuenta.RegistroGasto&lt;/TestId&gt;&#xD;
+    &lt;TestId&gt;NUnit3x::1CCBB824-F9B0-435A-90C5-0BF37A15E2EF::net5.0::ExamenFinalBurgaFInanzasTEst.Pruebas.pruebasCrearCuenta.ListarGasto&lt;/TestId&gt;&#xD;
+    &lt;TestId&gt;NUnit3x::1CCBB824-F9B0-435A-90C5-0BF37A15E2EF::net5.0::ExamenFinalBurgaFInanzasTEst.Pruebas.pruebasCrearCuenta.DetalleCuenta&lt;/TestId&gt;&#xD;
+    &lt;TestId&gt;NUnit3x::1CCBB824-F9B0-435A-90C5-0BF37A15E2EF::net5.0::ExamenFinalBurgaFInanzasTEst.Pruebas.pruebasCrearCuenta.IngresoDinero&lt;/TestId&gt;&#xD;
+    &lt;TestId&gt;NUnit3x::1CCBB824-F9B0-435A-90C5-0BF37A15E2EF::net5.0::ExamenFinalBurgaFInanzasTEst.Pruebas.pruebasCrearCuenta.MostrarIngresosDeUnaCuenta&lt;/TestId&gt;&#xD;
+  &lt;/TestAncestor&gt;&#xD;
+&lt;/SessionState&gt;</s:String></wpf:ResourceDictionary>

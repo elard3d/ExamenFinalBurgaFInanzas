@@ -1,0 +1,34 @@
+﻿<div class="row">
+    <div class="col-8" style="background-color: #fff">
+        <form action="/Finanzas/RegistroCuenta" method="post">
+
+            <h2>Crear Nueva Cuenta</h2>
+      
+            <input type="text" placeholder="ingrese el nombre de la cuenta" name="Nombre" required value="">
+
+            <select name="Categoria">
+                @foreach (var item in @ViewBag.Categoria)
+                {
+                    <option value="@item">@item</option>
+                }
+
+                <br>
+            </select>
+            <select name="Moneda">
+                @foreach (var item in @ViewBag.Moneda)
+                {
+                    <option value="@item">@item</option>
+                }
+            </select>
+
+            <input type="number" placeholder="Saldo de la cuenta" name="SaldoTotal" required value="">
+
+
+            <br>
+            
+            <button class="btn">Guardar</button>
+
+        </form>
+
+    </div>
+</div>
